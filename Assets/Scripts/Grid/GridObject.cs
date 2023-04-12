@@ -69,4 +69,9 @@ public class GridObject
         this.interactable = interactable;
     }
 
+    public void ClearInteractable()
+    {
+        this.interactable = null;
+    }
+
 }
